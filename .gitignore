@@ -1,0 +1,5 @@
+.idea
+ram.txt
+.terraform
+.terraform/
+.terraform.lock.hcl
