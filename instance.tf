@@ -1,5 +1,6 @@
 resource "aws_instance" "webfromeast" {
   ami           = "ami-09e67e426f25ce0d7" # this is UBUNTU 20 id
+  count         = 3
   instance_type = "t2.micro"
 
   tags = {
